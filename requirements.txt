@@ -1,4 +1,3 @@
-fastapi
-uvicorn
-yt-dlp
-pydantic
+flask==3.0.3
+requests==2.32.3
+yt-dlp==2024.12.13
