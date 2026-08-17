@@ -8,7 +8,7 @@ import urllib.request
 app = Flask(__name__)
 
 # API himoya kaliti - buni o'zgartiring!
-API_KEY = os.environ.get("API_KEY", "Kodim77a667_yz")
+API_KEY = os.environ.get("API_KEY", "apikeyim")
 
 DOWNLOAD_DIR = "/tmp/downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
