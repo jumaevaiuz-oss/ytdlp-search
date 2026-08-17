@@ -7,7 +7,7 @@ import subprocess
 
 app = Flask(__name__)
 
-API_KEY = os.environ.get("API_KEY", "gooooo")
+API_KEY = os.environ.get("API_KEY", "Kodim77a667_yz")
 
 DOWNLOAD_DIR = "/tmp/downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
