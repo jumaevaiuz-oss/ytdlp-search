@@ -394,12 +394,7 @@ def music_download():
         "no_warnings": True,
         "nocheckcertificate": True,
         "geo_bypass": True,
-        "extractor_args": {
-            "youtube": {
-                "player_client": ["tv_embedded"],
-            }
-        },
-    }
+    
 
     if COOKIE_FILE:
         ydl_opts["cookiefile"] = COOKIE_FILE
