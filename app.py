@@ -8,7 +8,7 @@ import json
 
 app = Flask(__name__)
 
-API_KEY = os.environ.get("API_KEY", "apikeyim")
+API_KEY = os.environ.get("API_KEY", "Kodim77a667_yz")
 DOWNLOAD_DIR = "/tmp/downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 MAX_SIZE_BYTES = 50 * 1024 * 1024  # 50MB
